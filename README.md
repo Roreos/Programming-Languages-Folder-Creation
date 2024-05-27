@@ -35,6 +35,7 @@ The script creates the following folders:
 - **PowerShell**: Make sure that PowerShell is set to allow script execution, if it is not then it will error. Run the following command to set the execution policy for the current user:
 
 Before running the command, I suggest you research SetExecution.
+This command will let you run all scripts from the internet and from you locally. This only applies for the current user and not all.
 
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Restricted
